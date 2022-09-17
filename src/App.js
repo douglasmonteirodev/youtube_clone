@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Feed from "./components/Feed";
 import VideoDetail from "./components/VideoDetail";
@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <HashRouter>
+    <Router>
       <div className='container'>
         <Navbar />
         <Routes>
@@ -18,7 +18,7 @@ const App = () => {
           <Route path='/search/:searchTerm' element={<SearchFeed />} />
         </Routes>
       </div>
-    </HashRouter>
+    </Router>
   );
 };
 

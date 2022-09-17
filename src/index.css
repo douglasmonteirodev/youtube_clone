@@ -29,42 +29,9 @@ a {
 
 .container {
   background-color: #000;
-  width: 100%;
-  height: 100vh;
-}
-.category-btn:hover {
-  background-color: #fc1503 !important;
-  color: white !important;
-}
-
-.category-btn:hover span {
-  color: white !important;
 }
 
 .react-player {
   height: 77vh !important;
   width: 100% !important;
-}
-
-.search-bar {
-  border: none;
-  outline: none;
-  width: 350px;
-}
-
-.category-btn {
-  font-weight: bold;
-  text-transform: capitalize;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  cursor: pointer;
-  background: transparent;
-  outline: none;
-  border: none;
-
-  padding: 7px 15px;
-  margin: 10px 0px;
-  border-radius: 20px;
-  transition: all 0.3s ease;
 }

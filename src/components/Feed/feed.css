@@ -1,0 +1,19 @@
+.feed__area {
+  display: flex;
+  flex-direction: column;
+}
+
+.feed__column {
+  height: 92vh;
+  border-right: 1px solid #3d3d3d;
+  max-width: 200px;
+  margin: 10px;
+  padding-right: 10px;
+}
+
+.feed__area footer {
+  margin: 10px;
+  margin-top: 1.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
