@@ -3,13 +3,12 @@ import React from "react";
 import { categories } from "../../utils/constants";
 import "./sidebar.css";
 
-const selectedCategory = "New";
-
-const Sidebar = () => {
+const Sidebar = ({ selectedCategory, setSelectedCategory }) => {
   return (
     <div className='sidebar'>
       {categories.map((category) => (
         <button
+          onClick={() => setSelectedCategory(category.name)}
           className='sidebar__category-btn'
           style={{
             background: category.name === selectedCategory && "#FC1503",

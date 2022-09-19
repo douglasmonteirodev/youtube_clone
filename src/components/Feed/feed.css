@@ -3,7 +3,8 @@
   flex-direction: column;
 }
 
-.feed__column {
+.feed__left {
+  position: absolute;
   height: 92vh;
   border-right: 1px solid #3d3d3d;
   max-width: 200px;
@@ -12,8 +13,29 @@
 }
 
 .feed__area footer {
+  padding-bottom: 30px;
   margin: 10px;
-  margin-top: 1.5rem;
+  margin-top: 20px;
   color: #fff;
   font-size: 0.9rem;
+}
+.feed__right {
+  position: absolute;
+  overflow-y: auto;
+  height: 90vh;
+  flex: 2;
+  left: 230px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.feed__right-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.feed__right span {
+  color: #f31503;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 5px;
 }

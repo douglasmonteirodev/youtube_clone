@@ -11,15 +11,17 @@ import GraphicEqIcon from "@mui/icons-material/GraphicEq";
 import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
+import ChildCareIcon from "@mui/icons-material/ChildCare";
 
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "Neffex", icon: <CodeIcon /> },
+  { name: "Neffex", icon: <MusicNoteIcon /> },
   { name: "Coding", icon: <CodeIcon /> },
-  { name: "ReactJS", icon: <CodeIcon /> },
-  { name: "NextJS", icon: <CodeIcon /> },
+  { name: "football", icon: <SportsSoccerIcon /> },
+  { name: "Kids", icon: <ChildCareIcon /> },
   { name: "Music", icon: <MusicNoteIcon /> },
   { name: "Education", icon: <SchoolIcon /> },
   { name: "Podcast", icon: <GraphicEqIcon /> },

@@ -1,0 +1,26 @@
+.video__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 325px;
+  height: 310px;
+  margin: auto;
+}
+
+.video__card-content {
+  background: #1e1e1e;
+  width: 325px;
+  height: 125px;
+}
+
+.video__card-content h3 {
+  color: #fff;
+  margin: 0;
+  padding: 20px 20px 0px 20px;
+}
+.video__card-nameChannel {
+  margin-top: -5px;
+  padding: 20px;
+  color: gray;
+}
