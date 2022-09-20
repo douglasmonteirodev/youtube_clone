@@ -36,3 +36,9 @@ a {
   height: 77vh !important;
   width: 100% !important;
 }
+
+.MuiCircularProgress-indeterminate {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}

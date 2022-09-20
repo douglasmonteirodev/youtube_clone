@@ -1,0 +1,24 @@
+.video__section-area {
+  display: flex;
+  justify-content: space-between;
+  min-height: 92vh;
+  overflow-x: hidden;
+  flex: 1;
+}
+
+.video__area-left {
+  width: 80vw;
+  position: sticky;
+  margin-right: 20px;
+}
+
+.video__area-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: -70px;
+  max-width: 28vw;
+  max-height: 77vh;
+  overflow-y: auto;
+}
