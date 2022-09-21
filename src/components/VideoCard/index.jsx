@@ -13,6 +13,7 @@ const VideoCard = ({
   <div className='video__card'>
     <Link to={videoId ? `/video/${videoId}` : `/video/cV2gBU6hKfY`}>
       <CardMedia
+        className='video__card-tumb'
         image={snippet?.thumbnails?.high?.url}
         alt={snippet?.title}
         sx={{ width: { xs: "100%", sm: "325px" }, height: 180 }}

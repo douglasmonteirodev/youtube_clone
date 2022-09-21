@@ -35,6 +35,7 @@ const ChannelDetail = () => {
     <div className='channel__detail-area'>
       <div>
         <div
+          className='bg__channel'
           style={{
             height: "300px",
             background:
@@ -44,10 +45,10 @@ const ChannelDetail = () => {
         />
         <ChannelCard channelDetail={channelDetail} marginTop='-93px' />
       </div>
-      <Box p={2} display='flex'>
+      <section>
         <Box sx={{ mr: { sm: "100px" } }} />
         <Videos videos={videos} />
-      </Box>
+      </section>
     </div>
   );
 };

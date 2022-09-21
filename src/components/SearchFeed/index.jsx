@@ -22,8 +22,9 @@ const SearchFeed = () => {
     <div className='feed__area'>
       <section className='feed__right'>
         <div className='feed__right-name'>
-          {searchTerm} Search Results for:
-          <span>videos</span>
+          Search Results for:
+          <span>{searchTerm}</span>
+          <span style={{ color: "#fff", marginLeft: "10px" }}>videos</span>
         </div>
         {"Carregando " && <Videos videos={videos} />}
       </section>

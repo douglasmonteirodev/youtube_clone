@@ -1,5 +1,6 @@
 .sidebar {
   overflow-y: auto;
+  padding: 15px;
   height: 95%;
   display: flex;
   flex-direction: column;
@@ -15,7 +16,6 @@
   background: transparent;
   outline: none;
   border: none;
-
   padding: 7px 15px;
   margin: 10px 0px;
   border-radius: 20px;

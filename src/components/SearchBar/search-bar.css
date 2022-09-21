@@ -16,3 +16,15 @@
   padding: 10px;
   color: red;
 }
+
+@media only screen and (max-width: 900px) {
+  .search__paper input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .search__paper input {
+    width: 100px;
+  }
+}

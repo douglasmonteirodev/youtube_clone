@@ -6,8 +6,11 @@
   padding: 20px;
   position: sticky;
   background: #202020;
+  width: 100%;
+  box-sizing: border-box;
   top: 0;
   border-bottom: 1px solid #3d3d3d;
+  flex: 1;
 }
 
 .navbar__btn {
@@ -17,4 +20,16 @@
 
 .navbar__btn img {
   height: 45px;
+}
+
+.menu__bar {
+  position: fixed;
+  top: 33px;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+.menu__bar:hover {
+  color: #ccc;
+  transition: all ease 0.6s;
 }

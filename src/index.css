@@ -30,7 +30,6 @@ a {
 
 .container {
   background-color: rgb(35, 34, 34);
-
   margin: auto;
   width: 1600px;
 }
@@ -44,4 +43,39 @@ a {
   position: fixed;
   top: 50%;
   left: 50%;
+}
+
+@media only screen and (max-width: 1600px) {
+  .container {
+    width: 1200px;
+  }
+  .react-player {
+    height: 70vh !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+
+  .react-player {
+    height: 55vh !important;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 600px;
+  }
+  .menu__bar {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
 }
