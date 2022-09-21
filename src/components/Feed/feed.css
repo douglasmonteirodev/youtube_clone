@@ -29,3 +29,9 @@
   font-weight: bold;
   margin-left: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  .feed__right-name {
+    margin-bottom: 30px;
+  }
+}
