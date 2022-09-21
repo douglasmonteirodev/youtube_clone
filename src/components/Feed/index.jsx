@@ -24,8 +24,8 @@ const Feed = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        <footer>Copyright 2022 DMS TECH </footer>
       </section>
+
       <section className='feed__right'>
         <div className='feed__right-name'>
           {selectedCategory}

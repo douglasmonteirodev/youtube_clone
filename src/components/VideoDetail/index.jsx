@@ -40,25 +40,23 @@ const VideoDetail = () => {
           className='react-player'
           controls
         />
-
         <h1>{title}</h1>
-
-        <div className='channel__title-vd'>
-          <Link to={`/channel/${channelId}`}>
-            <div style={{ color: "#fff" }}>
-              {channelTitle}
-              <CheckCircleIcon
-                sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
-              />
-            </div>
-          </Link>
-        </div>
-
         <div className='likes__count'>
           <span>{parseInt(viewCount).toLocaleString()} views</span>
           <span sx={{ opacity: 0.7 }}>
             {parseInt(likeCount).toLocaleString()} likes
           </span>
+        </div>
+
+        <div className='channel__title-vd'>
+          <Link to={`/channel/${channelId}`}>
+            <div className='video__detail-nameChannel'>
+              {channelTitle}
+              <CheckCircleIcon
+                sx={{ fontSize: "15px", color: "gray", ml: "5px" }}
+              />
+            </div>
+          </Link>
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { CircularProgress } from "@mui/material";
+import "./loader.css";
 
 const Loader = () => (
   <div className='loader__bar-area'>

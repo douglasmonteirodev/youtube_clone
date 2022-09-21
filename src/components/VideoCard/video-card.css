@@ -12,6 +12,7 @@
   background: #1e1e1e;
   width: 325px;
   height: 125px;
+  border-bottom: 1px solid #eee;
 }
 
 .video__card-content h3 {
