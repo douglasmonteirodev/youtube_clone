@@ -29,9 +29,7 @@ const VideoCard = ({
       <Link to={snippet?.channelId && `/channel/${snippet?.channelId}`}>
         <div className='video__card-nameChannel'>
           {snippet?.channelTitle}
-          <CheckCircleIcon
-            sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
-          />
+          <CheckCircleIcon sx={{ fontSize: "12px", color: "gray", ml: "5px" }} />
         </div>
       </Link>
     </div>

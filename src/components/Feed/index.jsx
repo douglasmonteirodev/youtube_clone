@@ -14,8 +14,8 @@ const Feed = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
-    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then(
-      (data) => setVideos(data.items)
+    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) =>
+      setVideos(data.items)
     );
   }, [selectedCategory]);
 

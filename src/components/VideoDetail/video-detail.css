@@ -52,7 +52,20 @@
     width: 900px;
     margin-right: 15px;
   }
+
+  .video__area-left h1 {
+    font-size: 1.5rem;
+  }
+
+  .video__area-left span {
+    font-size: 1rem;
+  }
+  .channel__title-vd div {
+    font-size: 1.2rem;
+  }
+
   .video__area-right {
+    margin-top: 0;
     margin-right: 15px;
     width: 350px;
     height: 70vh;
@@ -73,8 +86,19 @@
 
   .video__area-right {
     width: 95%;
+    margin-top: 50px;
     margin-bottom: 50px;
     overflow: auto;
+  }
+  .video__area-left h1 {
+    font-size: 1.2rem;
+  }
+
+  .video__area-left span {
+    font-size: 0.8rem;
+  }
+  .channel__title-vd div {
+    font-size: 1rem;
   }
 }
 
@@ -86,5 +110,16 @@
   }
   .video__area-right {
     margin: auto;
+  }
+
+  .video__area-left h1 {
+    font-size: 1rem;
+  }
+
+  .video__area-left span {
+    font-size: 0.7rem;
+  }
+  .channel__title-vd div {
+    font-size: 0.8rem;
   }
 }
