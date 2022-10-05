@@ -2,7 +2,7 @@
 
 ## Projeto usando React
 
-## GitPage: https://bit.ly/3SAU7s5
+## GitPage: https://douglasmonteirodev.github.io/builds/youtube-clone/
 
  <p align="center">
       <img src="src/assets/preview/home.png">
