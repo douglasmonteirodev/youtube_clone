@@ -2,7 +2,7 @@
 
 ## Projeto usando React
 
-## GitPage: https://douglasmonteirodev.github.io/builds/youtube-clone/
+## Link: https://douglasmonteirodev.github.io/builds/youtube-clone/
 
  <p align="center">
       <img src="src/assets/preview/home.png">
@@ -19,4 +19,3 @@
 - `Totalmente responsivo`
 
 # Douglas Monteiro ❤😎
-
