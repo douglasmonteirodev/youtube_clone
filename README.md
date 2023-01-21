@@ -13,7 +13,7 @@
 ## Descrição:
 
 
-- `Projeto fei com React JS.`
+- `Projeto feito com React JS.`
 - `Todos os dados são consumidos da rapidapi.com via axios.`
 - `Sistemas de rotas.`
 - `Há um campo de busca.`
